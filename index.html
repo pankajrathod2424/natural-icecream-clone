@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natural Ice Cream | Fresh Fruit Ice Creams</title>
+    <meta name="description" content="Natural Ice Cream - Made with real fruit pulp, milk and sugar. No artificial flavors.">
+    <link rel="icon" href="https://naturalicecreams.in/wp-content/uploads/2022/07/favicon.png">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="custom-top-nav">
+        <sup>*</sup>This is only a brand name and does not represent its true nature.
+    </div>
+
+    <header class="container py-3">
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div class="d-flex align-items-center gap-3">
+                <a href="index.html">
+                    <img src="./cards/Nlogo.png" alt="Natural Ice Cream Logo" height="50">
+                </a>
+                <button class="custom-green-btn" onclick="window.open('#','_blank')">Order Now</button>
+            </div>
+            
+            <div class="search-wrapper w-100 w-md-auto">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search flavors..." aria-label="Search">
+                    <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg custom-nav">
+        <div class="container">
+            <button class="navbar-toggler bg-light mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="mainNav">
+                <ul class="navbar-nav gap-lg-4">
+                    <li class="nav-item"><a href="#flavors" class="nav-link custom-nav-link">Flavors</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link custom-nav-link">Our Legacy</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link custom-nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Seasonal</a></li>
+                            <li><a class="dropdown-item" href="#">Malai</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">All Flavors</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link custom-nav-link">Malai Magic</a></li>
+                    <li class="nav-item"><a href="#locator" class="nav-link custom-nav-link">Locator</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid p-0 custom-caro-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./cards/mango.jpg" class="d-block w-100" alt="Mango Ice Cream - Fresh Alphonso Mango">
+                </div>
+                <div class="carousel-item">
+                    <img src="./cards/choco.jpg" class="d-block w-100" alt="Chocolate Ice Cream">
+                </div>
+                <div class="carousel-item">
+                    <img src="./cards/coco.jpg" class="d-block w-100" alt="Tender Coconut Ice Cream">
+                </div>
+                <div class="carousel-item">
+                    <img src="./cards/mul.jpg" class="d-block w-100" alt="Mulberry Ice Cream">
+                </div>
+                <div class="carousel-item">
+                    <img src="./cards/straw.jpg" class="d-block w-100" alt="Strawberry Ice Cream">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </main>
+
+    <!-- POPULAR FLAVORS SECTION -->
+    <section id="flavors" class="container my-5 py-4">
+        <h2 class="text-center mb-5 section-title">Popular Flavors</h2>
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card flavor-card h-100">
+                    <img src="./cards/f1.jpg" class="card-img-top" alt="Alphonso Mango">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Alphonso Mango</h5>
+                        <p class="card-text text-muted">Made with real Ratnagiri mangoes</p>
+                        <button class="custom-green-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card flavor-card h-100">
+                    <img src="./cards/f2.jpg" class="card-img-top" alt="Tender Coconut">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tender Coconut</h5>
+                        <p class="card-text text-muted">Fresh coconut chunks in creamy base</p>
+                        <button class="custom-green-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card flavor-card h-100">
+                    <img src="./cards/f3.jpg" class="card-img-top" alt="Sitaphal">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sitaphal</h5>
+                        <p class="card-text text-muted">Seasonal custard apple delight</p>
+                        <button class="custom-green-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card flavor-card h-100">
+                    <img src="./cards/f4.jpg" class="card-img-top" alt="Chocolate">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chocolate</h5>
+                        <p class="card-text text-muted">Rich Belgian chocolate</p>
+                        <button class="custom-green-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card flavor-card h-100">
+                    <img src="./cards/f5.jpg" class="card-img-top" alt="Strawberry">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Strawberry</h5>
+                        <p class="card-text text-muted">Made with Mahabaleshwar strawberries</p>
+                        <button class="custom-green-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card flavor-card h-100">
+                    <img src="./cards/f6.jpg" class="card-img-top" alt="Kala Jamun">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Kala Jamun</h5>
+                        <p class="card-text text-muted">Tangy-sweet Indian blackberry</p>
+                        <button class="custom-green-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STORE LOCATOR SECTION -->
+    <section id="locator" class="container-fluid bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Find Us Near You</h2>
+            <div class="row g-4 align-items-center">
+                <div class="col-12 col-lg-6">
+                    <div class="locator-card p-4">
+                        <h4 class="mb-4"><i class="fa-solid fa-location-dot me-2"></i>Our Stores in Pune</h4>
+                        <div class="store-item mb-3">
+                            <h6>Wakad</h6>
+                            <p class="mb-1 text-muted small">Shop 12, West High Court Road, Dharampeth</p>
+                            <p class="mb-0"><i class="fa-solid fa-phone me-2"></i><a href="tel:07122521234">0712-2521234</a></p>
+                        </div>
+                        <hr>
+                        <div class="store-item mb-3">
+                            <h6>Pimpri</h6>
+                            <p class="mb-1 text-muted small">MG Road, Near Variety Square, Pimpri</p>
+                            <p class="mb-0"><i class="fa-solid fa-phone me-2"></i><a href="tel:07122567890">0712-2567890</a></p>
+                        </div>
+                        <hr>
+                        <div class="store-item">
+                            <h6>Manish Nagar</h6>
+                            <p class="mb-1 text-muted small">Spine Road, Manish Nagar, Pune</p>
+                            <p class="mb-0"><i class="fa-solid fa-phone me-2"></i><a href="tel:07122456789">0712-2456789</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="map-wrapper">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121073.91939539721!2d73.8746239!3d18.5035801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1781845347713!5m2!1sen!2sin" 
+        width="100%" 
+        height="400" 
+        style="border:0; border-radius: 8px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="custom-footer pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h5>CONTACT US</h5>
+                    <address class="small">
+                        Plot 55 ABCD & 56 D, Kandivali Industrial Estate, Charkop, Kandivali (W), Mumbai – 400 067.
+                        <br><br>
+                        <i class="fa-solid fa-envelope me-2"></i>
+                        <a href="mailto:customercare@naturalicecreams.in">customercare@naturalicecreams.in</a>
+                        <br>
+                        <i class="fa-solid fa-headset me-2"></i>
+                        <a href="tel:8080801984">8080801984</a>
+                    </address>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3 vertical-line">
+                    <h5>ABOUT NATURALS</h5>
+                    <a href="#" class="custom-nav-link d-block">Tree To Treat</a>
+                    <a href="#" class="custom-nav-link d-block">Our Legacy</a>
+                    <a href="#flavors" class="custom-nav-link d-block">All Flavors</a>
+                    
+                    <h5 class="mt-4">FRANCHISE QUERIES</h5>
+                    <a href="#" class="custom-nav-link d-block">Become a Partner</a>
+                    <a href="#" class="custom-nav-link d-block">Franchise FAQ</a>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3 vertical-line">
+                    <h5>QUICK LINKS</h5>
+                    <a href="#flavors" class="custom-nav-link d-block">Products</a>
+                    <a href="#locator" class="custom-nav-link d-block">Store Locator</a>
+                    <a href="#" class="custom-nav-link d-block">Malai Magic</a>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-3 vertical-line">
+                    <h5>SUPPORT</h5>
+                    <a href="#" class="custom-nav-link d-block">FAQs</a>
+                    <a href="#" class="custom-nav-link d-block">Privacy Policy</a>
+                    <a href="#" class="custom-nav-link d-block">Terms of Service</a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center gap-3 mt-5">
+                <a href="#" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            
+            <p class="text-center mt-4 mb-0 small text-white-50">© 2026 Natural Ice Cream Clone. Made for learning.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
